@@ -1,0 +1,542 @@
+{{Infobox mathematics function
+| name = Sine
+| image = Sine one period.svg
+| parity=odd |domain=(−,)&thinsp; |codomain=[−1,1]&thinsp; |period=2π
+| zero=0 |plusinf= |minusinf= |max=((2k + ½)π, 1)&thinsp; |min=((2k − ½)π, −1)
+| vr1= |f1=  |vr5= |f5=
+| asymptote= |root=kπ |critical=kπ − π/2 |inflection=kπ |fixed=0
+| notes = 
+}}
+
+Sine, in mathematics, is a trigonometric function of an angle. The sine of an angle is defined in the context of a right triangle: for the specified angle, it is the ratio of the length of the side that is opposite that angle to the length of the longest side of the triangle (i.e., the hypotenuse).
+
+Trigonometric functions are commonly defined as ratios of two sides of a right triangle containing the angle, and can equivalently be defined as the lengths of various line segments from a unit circle. More modern definitions express them as infinite series or as solutions of certain differential equations, allowing their extension to arbitrary positive and negative values and even to complex numbers.
+
+The sine function is commonly used to model periodic phenomena such as sound and light waves, the position and velocity of harmonic oscillators, sunlight intensity and day length, and average temperature variations throughout the year.
+
+The function sine can be traced to the jyā and koṭi-jyā  functions used in Gupta period Indian astronomy (Aryabhatiya, Surya Siddhanta), via translation from Sanskrit to Arabic and then from Arabic to Latin. The word "sine" comes from a Latin mistranslation of the Arabic jiba, which is a transliteration of the Sanskrit word for half the chord, jya-ardha.
+
+== Right-angled triangle definition ==
+For any similar triangle the ratio of the length of the sides remains the same. For example, if the hypotenuse is twice as long, so are the other sides. Therefore respective trigonometric functions, depending only on the size of the angle, express those ratios: between the hypotenuse and the "opposite" side to an angle A in question (see illustration) in the case of sine function; or between the hypotenuse and the "adjacent" side (cosine) or between the "opposite" and the "adjacent" side (tangent), etc.
+
+To define the trigonometric functions for an acute angle A, start with any right triangle that contains the angle A. The three sides of the triangle are named as follows:
+* The adjacent side is the side that is in contact with (adjacent to) both the angle we are interested in (angle A) and the right angle, in this case side b.
+* The hypotenuse is the side opposite the right angle, in this case side h. The hypotenuse is always the longest side of a right-angled triangle.
+* The opposite side is the side opposite to the angle we are interested in (angle A), in this case side a.
+
+In ordinary Euclidean geometry, according to the triangle postulate the inside angles of every triangle total 180° (π radians). Therefore, in a right-angled triangle, the two non-right angles total 90° (π/2 radians), so each of these angles must be greater than 0° and less than 90°. The following definition applies to such angles.
+
+The angle A (having measure α) is the angle between the hypotenuse and the adjacent side.
+
+The sine of an angle is the ratio of the length of the opposite side to the length of the hypotenuse. In our case, it does not depend on the size of the particular right triangle chosen, as long as it contains the angle A, since all such triangles are similar.
+
+== Relation to slope ==
+
+The trigonometric functions can be defined in terms of the rise, run, and slope of a line segment relative to some horizontal line.
+
+*When the length of the line segment is 1, sine takes an angle and tells the rise.
+*Sine takes an angle and tells the rise per unit length of the line segment.
+*Rise is equal to sin θ multiplied by the length of the line segment.
+
+In contrast, cosine is used for the telling the run from the angle; and tangent is used for telling the slope from the angle. Arctan is used for telling the angle from the slope.
+
+The line segment is the equivalent of the hypotenuse in the right-triangle, and when it has a length of 1 it is also equivalent to the radius of the unit circle.
+
+== Relation to the unit circle ==
+
+In trigonometry, a unit circle is the circle of radius one centered at the origin (0, 0) in the Cartesian coordinate system.
+
+Let a line through the origin, making an angle of θ with the positive half of the x-axis, intersect the unit circle. The x- and y-coordinates of this point of intersection are equal to cos θ and sin θ, respectively. The point's distance from the origin is always 1.
+
+Unlike the definitions with the right triangle or slope, the angle can be extended to the full set of real arguments by using the unit circle. This can also be achieved by requiring certain symmetries and that sine be a periodic function.
+
+== Identities ==
+
+Exact identities (using radians):
+
+These apply for all values of \theta.
+
+: 
+\sin \theta = \cos \left(\frac{\pi}{2} - \theta \right)  = \frac{1}{\csc \theta}
+
+=== Reciprocal ===
+The reciprocal of sine is cosecant, i.e., the reciprocal of sin(A) is csc(A), or cosec(A). Cosecant gives the ratio of the length of the hypotenuse to the length of the opposite side:
+
+:\csc A = \frac {1}{\sin A} = \frac {\textrm{hypotenuse}} {\textrm{opposite}} = \frac {h} {a}.
+
+=== Inverse ===
+
+The inverse function of sine is arcsine (arcsin or asin) or inverse sine (sin). As sine is non-injective, it is not an exact inverse function but a partial inverse function. For example, sin(0) = 0, but also sin(π) = 0, sin(2π) = 0 etc. It follows that the arcsine function is multivalued: arcsin(0) = 0, but also arcsin(0) = π, arcsin(0) = 2π, etc. When only one value is desired, the function may be restricted to its principal branch. With this restriction, for each x in the domain the expression arcsin(x) will evaluate only to a single value, called its principal value.
+
+:\theta = \arcsin \left( \frac{\text{opposite}}{\text{hypotenuse}} \right) = \sin^{-1} \left( \frac {a} {h} \right).
+
+k is some integer:
+
+:\begin{align}
+\sin y = x \ \Leftrightarrow\ & y = \arcsin x + 2k\pi , \text{ or }\\
+ & y = \pi - \arcsin x + 2k\pi
+\end{align}
+
+Or in one equation:
+
+:\sin y = x \ \Leftrightarrow\  y = (-1)^k \arcsin x + k\pi
+
+Arcsin satisfies:
+
+:\sin(\arcsin x) = x\!
+and
+:\arcsin(\sin \theta) = \theta\quad\text{for }-\pi/2 \leq \theta \leq \pi/2.
+
+=== Calculus ===
+
+For the sine function:
+
+: f(x) = \sin x \,
+
+The derivative is:
+
+: f'(x) = \cos x \,
+
+The antiderivative is:
+
+:\int f(x)\,dx = -\cos x + C
+
+C denotes the constant of integration.
+
+=== Other trigonometric functions ===
+
+It is possible to express any trigonometric function in terms of any other (up to a plus or minus sign, or using the sign function).
+
+Sine in terms of the other common trigonometric functions:
+
+{| class="wikitable"
+|-
+!colspan="1" rowspan="3"|
+!colspan="1" rowspan="3"|f θ
+!colspan="5"|Using plus/minus (±)
+!colspan="1"|Using sign function (sgn)
+|-
+!colspan="1" rowspan=2|f θ =
+!colspan="4"|± per Quadrant
+!rowspan="2"|f θ =
+|-
+! I
+! II
+! III
+! IV
+|-
+!rowspan="2"|cos
+|\sin \theta 
+|= \pm\sqrt{1 - \cos^2 \theta}
+| +
+| +
+| −
+| −
+|= \sgn\left( \cos \left(\theta - \frac{\pi}{2}\right)\right) \sqrt{1 - \cos^2\theta}
+|-
+|\cos \theta 
+|= \pm\sqrt{1 - \sin^2\theta}
+| +
+| −
+| −
+| +
+|= \sgn\left( \sin \left(\theta+ \frac{\pi}{2}\right)\right) \sqrt{1 - \sin^2\theta}
+|-
+!rowspan="2"|cot
+| \sin \theta 
+| = \pm\frac{1}{\sqrt{1 + \cot^2 \theta}}
+| +
+| +
+| −
+| −
+| =  \sgn\left( \cot\left( \frac{\theta}{2}\right)\right) \frac{1}{\sqrt{1 + \cot^2 \theta}}
+|-
+|\cot \theta
+| = \pm\frac{\sqrt{1 - \sin^2 \theta}}{\sin \theta}
+| +
+| −
+| −
+| +
+| = \sgn\left( \sin \left(\theta+ \frac{\pi}{2}\right)\right) \frac{\sqrt{1 - \sin^2 \theta}}{\sin \theta}
+|-
+!rowspan="2"|tan
+| \sin \theta 
+| =  \pm\frac{\tan \theta}{\sqrt{1 + \tan^2 \theta}} 
+| +
+| −
+| −
+| +
+| = \sgn\left( \tan\left(\frac{2\theta + \pi}{4}\right)\right) \frac{\tan \theta}{\sqrt{1 + \tan^2 \theta}} 
+|-
+| \tan \theta 
+| = \pm\frac{\sin \theta}{\sqrt{1 - \sin^2 \theta}}
+| +
+| −
+| −
+| +
+| = \sgn\left( \sin \left(\theta+ \frac{\pi}{2}\right)\right) \frac{\sin \theta}{\sqrt{1 - \sin^2 \theta}}
+|-
+!rowspan="2"|sec
+| \sin \theta 
+| = \pm\frac{\sqrt{\sec^2 \theta - 1}}{\sec \theta} 
+| +
+| −
+| +
+| −
+| = \sgn\left( \sec \left( \frac{4 \theta - \pi}{2}\right)\right) \frac{\sqrt{\sec^2 \theta - 1}}{\sec \theta} 
+|-
+| \sec \theta 
+| = \pm\frac{1}{\sqrt{1 - \sin^2 \theta}}
+| +
+| −
+| −
+| +
+| = \sgn\left( \sin \left(\theta+ \frac{\pi}{2}\right)\right) \frac{1}{\sqrt{1 - \sin^2 \theta}}
+|}
+
+Note that for all equations which use plus/minus (±), the result is positive for angles in the first quadrant.
+
+The basic relationship between the sine and the cosine can also be expressed as the Pythagorean trigonometric identity:
+
+:\cos^2\theta + \sin^2\theta = 1\!
+
+where sin2x means (sin(x))2.
+
+== Properties relating to the quadrants ==
+Over the four quadrants of the sine function is as follows.
+
+Points between the quadrants. k is an integer.
+
+For arguments outside those in the table, get the value using the fact the sine function has a period of 360° (or 2π rad): \sin(\alpha + 360^\circ) = \sin(\alpha), or use \sin(\alpha + 180^\circ) = -\sin(\alpha).
+Or use \cos(x)= \frac{e^{ix}+e^{-ix}}{2}   and  \sin(x)=\frac{e^{ix}-e^{-ix}}{2i}.
+For complement of sine, we have \sin(180^\circ-\alpha) = \sin(\alpha).
+
+== Series definition ==
+Image:Taylorsine.svg|thumb|right|The sine function (blue) is closely approximated by its Taylor polynomial of degree 7 (pink) for a full cycle centered on the origin.
+
+Using only geometry and properties of limits, it can be shown that the derivative of sine is cosine, and that the derivative of cosine is the negative of sine.
+
+Using the reflection from the calculated geometric derivation of the sine is with the 4n + k-th derivative at the point 0:
+
+:\sin^{(4n+k)}(0)=\begin{cases}
+0 & \text{when } k=0 \\
+1 & \text{when } k=1 \\
+0 & \text{when } k=2 \\
+-1 &  \text{when } k=3 \end{cases}
+
+This gives the following Taylor series expansion at x = 0. One can then use the theory of Taylor series to show that the following identities hold for all real numbers x (where x is the angle in radians) :
+
+:
+\begin{align}
+\sin x & = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots \\[8pt]
+& = \sum_{n=0}^\infty \frac{(-1)^n}{(2n+1)!}x^{2n+1} \\[8pt]
+\end{align}
+
+If x were expressed in degrees then the series would contain messy factors involving powers of π/180: if x is the number of degrees, the number of radians is y = πx /180, so
+
+:\begin{align}
+\sin x_\mathrm{deg} & = \sin y_\mathrm{rad} \\
+& = \frac{\pi}{180} x - \left (\frac{\pi}{180} \right )^3\ \frac{x^3}{3!} + \left (\frac{\pi}{180} \right )^5\ \frac{x^5}{5!} - \left (\frac{\pi}{180} \right )^7\ \frac{x^7}{7!} + \cdots .
+\end{align}
+
+The series formulas for the sine and cosine are uniquely determined, up to the choice of unit for angles, by the requirements that
+:
+\begin{align}
+\sin 0 = 0 & \text{ and } \sin{2x} = 2 \sin x \cos x \\
+\cos^2 x + \sin^2 x = 1 & \text{ and } \cos{2x} = \cos^2 x - \sin^2 x \\
+\end{align}
+
+The radian is the unit that leads to the expansion with leading coefficient 1 for the sine and is determined by the additional requirement that
+:
+\sin x \approx x \text{ when } x \approx 0.
+
+The coefficients for both the sine and cosine series may therefore be derived by substituting their expansions into the pythagorean and double angle identities, taking the leading coefficient for the sine to be 1, and matching the remaining coefficients.
+
+In general, mathematically important relationships between the sine and cosine functions and the exponential function (see, for example, Euler's formula) are substantially simplified when angles are expressed in radians, rather than in degrees, grads or other units. Therefore, in most branches of mathematics beyond practical geometry, angles are generally assumed to be expressed in radians.
+
+A similar series is Gregory's series for arctan, which is obtained by omitting the factorials in the denominator.
+
+==Continued fraction==
+The sine function can also be represented as a generalized continued fraction:
+
+: \sin x =
+\cfrac{x}{1 + \cfrac{x^2}{2\cdot3-x^2 +
+\cfrac{2\cdot3 x^2}{4\cdot5-x^2 +
+\cfrac{4\cdot5 x^2}{6\cdot7-x^2 + \ddots}}}}.
+
+The continued fraction representation expresses the real number values, both rational and irrational, of the sine function.
+
+==Fixed point==
+
+Zero is the only real fixed point of the sine function; in other words the only intersection of the sine function and the identity function is sin(0) = 0.
+
+==Arc length==
+The arc length of the sine curve between a and b is  \int_a^b\!\sqrt{1+\cos(x)^2}\, dx 
+This integral is an elliptic integral of the second kind.
+
+The arc length for a full period is \frac{4\sqrt{2}\,\pi^{3/2}}{\Gamma(1/4)^2} + \frac{\Gamma(1/4)^2}{\sqrt{2\pi}}=7.640395578\ldots
+where \Gamma is the Gamma function.
+
+The arc length of the sine curve from 0 to x is the above number divided by 2\pi times x, plus a correction
+that varies periodically in x with period \pi.  The Fourier series for this correction
+can be written in closed form using special functions, but it is perhaps more instructive to write the decimal approximations of the Fourier coefficients.
+The sine curve arc length from 0 to x is
+
+1.21600672 \,\times\, x \,+\, 0.10317093\, \sin(2x)-0.00220445\sin(4x)+0.00012584\sin(6x)-0.00001011\sin(8 x)+\cdots
+
+==Law of sines==
+
+The law of sines states that for an arbitrary triangle with sides a, b, and c and angles opposite those sides A, B and C:
+
+:\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}.
+
+This is equivalent to the equality of the first three expressions below:
+
+:\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R,
+
+where R is the triangle's circumradius.
+
+It can be proven by dividing the triangle into two right ones and using the above definition of sine. The law of sines is useful for computing the lengths of the unknown sides in a triangle if two angles and one side are known. This is a common situation occurring in triangulation, a technique to determine unknown distances by measuring two angles and an accessible enclosed distance.
+
+== Special values ==
+
+For certain integral numbers x of degrees, the value of sin(x) is particularly simple.  A table of some of these values is given below.
+{| border="1" cellpadding="5" cellspacing="0"
+|-----
+! style="background:#ffdead;" colspan="4" | x (angle)
+! colspan="2" style="background:#ffdead;" | sin x
+|-----
+| style="background:#efefef;" align=Center | Degrees
+| style="background:#efefef;" | Radians
+| style="background:#efefef;" align=Center | Gradians
+| style="background:#efefef;" align=Center | Turns
+| style="background:#efefef;" align=Center | Exact
+| style="background:#efefef;" | Decimal
+|-----
+| align=Center | 0° || align="Center" | 0
+| align=Center | 0g
+| align=Center | 0
+| align=Center rowspan=2 | 0 || rowspan=2 | 0
+|-----
+| align=Center | 180° || align=Center | π
+| align=Center | 200g
+| align=Center | 
+|-----
+| align=Center | 15°
+| align=Center | π
+| align=Center | g
+| align=Center | 
+| align=Center rowspan=2 | \frac{\sqrt{6}-\sqrt{2}}{4}
+| rowspan=2 | 0.258819045102521
+|-----
+| align=Center | 165°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+|-----
+| align=Center | 30°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+| align=Center rowspan=2 | 
+| rowspan=2 | 0.5
+|-----
+| align=Center | 150°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+|-----
+| align=Center | 45°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+| align=Center rowspan=2 | \frac{\sqrt{2}}{2}
+| rowspan=2 | 0.707106781186548
+|-----
+| align=Center | 135°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+|-----
+| align=Center | 60°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+| align=Center rowspan=2 | \frac{\sqrt{3}}{2}
+| rowspan=2 | 0.866025403784439
+|-----
+| align=Center | 120°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+|-----
+| align=Center | 75°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+| align=Center rowspan=2 | \frac{\sqrt{6}+\sqrt{2}}{4}
+| rowspan=2 | 0.965925826289068
+|-----
+| align=Center | 105°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+|-----
+| align=Center | 90°
+| align=Center | π
+| align=Center | 
+| align=Center | 
+| align=Center | 1
+| 1
+|}
+
+90 degree increments:
+
+Other values not listed above:
+: \sin\frac{\pi}{60}=\sin 3^\circ=\frac{(2-\sqrt{12})\sqrt{5+\sqrt5}+(\sqrt{10}-\sqrt2)(\sqrt3+1)}{16}\, 
+: \sin\frac{\pi}{30}=\sin 6^\circ=\frac{\sqrt{30-\sqrt{180}}-\sqrt5-1}{8}\, 
+: \sin\frac{\pi}{20}=\sin 9^\circ=\frac{\sqrt{10}+\sqrt2-\sqrt{20-\sqrt{80}}}{8}\, 
+: \sin\frac{\pi}{15}=\sin 12^\circ=\frac{\sqrt{10+\sqrt{20}}+\sqrt{3}-\sqrt{15}}{8}\, 
+: \sin\frac{\pi}{10}=\sin 18^\circ=\frac{\sqrt5-1}{4}=\tfrac{1}{2}\varphi^{-1}\, 
+: \sin\frac{7\pi}{60}=\sin 21^\circ=\frac{(2+\sqrt{12})\sqrt{5-\sqrt5}-(\sqrt{10}+\sqrt2)(\sqrt3-1)}{16}\, 
+: \sin\frac{\pi}{8}=\sin 22.5^\circ=\frac{\sqrt{2-\sqrt2}}{2},
+: \sin\frac{2\pi}{15}=\sin 24^\circ=\frac{\sqrt3+\sqrt{15}-\sqrt{10-\sqrt{20}}}{8}\, 
+: \sin\frac{3\pi}{20}=\sin 27^\circ=\frac{\sqrt{20+\sqrt{80}}-\sqrt{10}+\sqrt2}{8}\, 
+: \sin\frac{11\pi}{60}=\sin 33^\circ=\frac{(\sqrt{12}-2)\sqrt{5+\sqrt5}+(\sqrt{10}-\sqrt2)(\sqrt3+1)}{16}\, 
+: \sin\frac{\pi}{5}=\sin 36^\circ=\frac{\sqrt{10-\sqrt{20}}}{4}\, 
+: \sin\frac{13\pi}{60}=\sin 39^\circ=\frac{(2-\sqrt{12})\sqrt{5-\sqrt5}+(\sqrt{10}+\sqrt2)(\sqrt3+1)}{16}\, 
+: \sin\frac{7\pi}{30}=\sin 42^\circ=\frac{\sqrt{30+\sqrt{180}}-\sqrt5+1}{8}\,
+
+==Relationship to complex numbers==
+
+Sine is used to determine the imaginary part of a complex number given in polar coordinates (r,φ):
+
+: z = r(\cos \varphi + i\sin \varphi )\,
+
+the imaginary part is:
+
+:\operatorname{Im}(z) = r \sin \varphi
+
+r and φ represent the magnitude and angle of the complex number respectively. i is the imaginary unit. z is a complex number.
+
+Although dealing with complex numbers, sine's parameter in this usage is still a real number. Sine can also take a complex number as an argument.
+
+===Sine with a complex argument===
+
+The definition of the sine function for complex arguments z:
+
+: \begin{align}
+\sin z & = \sum_{n=0}^\infty \frac{(-1)^{n}}{(2n+1)!}z^{2n+1} \\
+& = \frac{e^{i z} - e^{-i z}}{2i}\, \\
+& = \frac{\sinh \left( i z\right) }{i}
+\end{align}
+
+where i 2 = −1, and sinh is hyperbolic sine. This is an entire function. Also, for purely real x,
+
+: \sin x = \operatorname{Im}(e^{i x}). \,
+
+For purely imaginary numbers:
+: \sin iy = i \sinh y. \,
+
+It is also sometimes useful to express the complex sine function in terms of the real and imaginary parts of its argument:
+
+: \begin{align}
+\sin (x + iy) &= \sin x \cos iy + \cos x \sin iy \\
+&= \sin x \cosh y + i \cos x \sinh y.
+\end{align}
+
+==== Partial fraction and product expansions of complex sine ====
+Using the partial fraction expansion technique in Complex Analysis, one can find that the infinite series
+
+: \begin{align}
+\sum_{n = -\infty}^{\infty}\frac{(-1)^n}{z-n} = \frac{1}{z} -2z \sum_{n = 1}^{\infty}\frac{(-1)^n}{n^2-z^2}
+\end{align}
+
+both converge and are equal to \frac{\pi}{\sin \pi z}.
+
+Similarly we can find
+
+: \begin{align}
+\frac{\pi^2}{\sin^2 \pi z} = \sum_{n=-\infty}^\infty \frac{1}{(z-n)^2}.
+\end{align}
+
+Using product expansion technique, one can derive
+
+: \begin{align}
+\sin \pi z = \pi z \prod_{n = 1}^\infty \Bigl( 1- \frac{z^2}{n^2} \Bigr).
+\end{align}
+
+==== Usage of complex sine ====
+sin z is found in the functional equation for the Gamma function,
+:\Gamma(s)\Gamma(1-s)={\pi\over\sin\pi s},
+
+which in turn is found in the functional equation for the Riemann zeta-function,
+:\zeta(s)=2(2\pi)^{s-1}\Gamma(1-s)\sin(\pi s/2)\zeta(1-s).
+
+As a holomorphic function, sin z is a 2D solution of Laplace's equation:
+:\Delta u(x_1, x_2) = 0.
+
+It is also related with level curves of pendulum.
+
+===Complex graphs===
+
+== History ==
+
+While the early study of trigonometry can be traced to antiquity, the trigonometric functions as they are in use today were developed in the medieval period.
+The chord function was discovered by Hipparchus of Nicaea (180–125 BC) and Ptolemy of Roman Egypt (90–165 AD).
+
+The function sine (and cosine) can be traced to the jyā and koṭi-jyā  functions used in Gupta period (320 to 550 CE) Indian astronomy (Aryabhatiya, Surya Siddhanta), via translation from Sanskrit to Arabic and then from Arabic to Latin.
+
+The first published use of the abbreviations 'sin', 'cos', and 'tan' is by the 16th century French mathematician Albert Girard; these were further promulgated by Euler (see below). The Opus palatinum de triangulis of Georg Joachim Rheticus, a student of Copernicus, was probably the first in Europe to define trigonometric functions directly in terms of right triangles instead of circles, with tables for all six trigonometric functions; this work was finished by Rheticus' student Valentin Otho in 1596.
+
+In a paper published in 1682, Leibniz proved that sin x is not an algebraic function of x. Roger Cotes computed the derivative of sine in his Harmonia Mensurarum (1722). Leonhard Euler's Introductio in analysin infinitorum (1748) was mostly responsible for establishing the analytic treatment of trigonometric functions in Europe, also defining them as infinite series and presenting "Euler's formula", as well as the near-modern abbreviations sin., cos., tang., cot., sec., and cosec.
+
+=== Etymology ===
+
+Etymologically, the word sine derives from the Sanskrit word for chord, jiva*(jya being its more popular synonym). This was transliterated in Arabic as jiba جــيــب, abbreviated jb جــــب . Since Arabic is written without short vowels, "jb" was interpreted as the word jaib جــيــب, which means "bosom", when the Arabic text was translated in the 12th century into Latin by Gerard of Cremona. The translator used the Latin equivalent for "bosom", sinus (which means "bosom" or "bay" or "fold"). The English form sine was introduced in the 1590s.
+
+== Software implementations ==
+
+The sine function, along with other trigonometric functions, is widely available across programming languages and platforms. In computing, it is typically abbreviated to sin.
+
+Some CPU architectures have a built-in instruction for sine, including the Intel x87 FPUs since the 80387.
+
+In programming languages, sin is typically either a built-in function or found within the language's standard math library.
+
+For example, the C standard library defines sine functions within math.h: sin(double), sinf(float), and sinl(long double). The parameter of each is a floating point value, specifying the angle in radians. Each function returns the same data type as it accepts. Many other trigonometric functions are also defined in math.h, such as for cosine, arc sine, and hyperbolic sine (sinh).
+
+Similarly, Python, defines math.sin(x) within the built-in math module. Complex sine functions are also available within the cmath module, e.g. cmath.sin(z). CPython's math functions call the C math library, and use a double-precision floating-point format.
+
+There is no standard algorithm for calculating sine. IEEE 754-2008, the most widely used standard for floating-point computation, does not address calculating trigonometric functions such as sine. Algorithms for calculating sine may be balanced for such constraints as speed, accuracy, portability, or range of input values accepted. This can lead to different results for different algorithms, especially for special circumstances such as very large inputs, e.g. sin(10).
+
+A once common programming optimization, used especially in 3D graphics, was to pre-calculate a table of sine values, for example one value per degree. This allowed results to be looked up from a table rather than being calculated in real time. With modern CPU architectures this method may offer no advantage.
+
+== See also ==
+* Āryabhaṭa's sine table
+* Bhaskara I's sine approximation formula
+* Discrete sine transform
+* Euler's formula
+* Generalized trigonometry
+* Hyperbolic function
+* Law of sines
+* List of periodic functions
+* List of trigonometric identities
+* Madhava series
+* Madhava's sine table
+* Optical sine theorem
+* Polar sine — a generalization to vertex angles
+* Proofs of trigonometric identities
+* Sine and cosine transforms
+* Sine quadrant
+* Sine wave
+* Sine–Gordon equation
+* Sinusoidal model
+* Trigonometric functions
+* Trigonometry in Galois fields
+
+== References ==
+
+== External links ==
+*
+
+no:Trigonometriske funksjoner#Sinus, cosinus og tangens
