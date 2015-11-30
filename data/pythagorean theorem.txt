@@ -338,6 +338,49 @@ which says that twice the sum of the squares of the lengths of the sides of a pa
 The Pythagorean identity can be extended to sums of more than two orthogonal vectors. If v1, v2, ..., vn are pairwise-orthogonal vectors in an inner-product space, then application of the Pythagorean theorem to successive pairs of these vectors (as described for 3-dimensions in the section on solid geometry) results in the equation
 :\|\sum_{k=1}^{n}\mathbf{v}_k\|^2 = \sum_{k=1}^n \|\mathbf{v}_k\|^2.
 
+===Sets of m-dimensional objects in n-dimensional space===
+
+The broadest generalization of the Pythagorean theorem, introduced by Donald R. Conant and William A. Beyer, applies to a wide range of objects and sets of objects in any number of dimensions.  Specifically, the square of the measure of an m-dimensional set of objects in one or more parallel m-dimensional flats in n-dimensional  Euclidean space is equal to the sum of the squares of the measures of the  orthogonal projections of the object(s) onto all m-dimensional coordinate subspaces.
+
+In mathematical terms:
+
+:\mu^2_{ms} = \sum_{i=1}^{x}\mathbf{\mu^2}_{mp_i}
+
+where:
+* \mu_m is a measure in m-dimensions (a length in one dimension, an area in two dimensions, a volume in three dimensions, etc.).
+* s is a set of one or more non-overlapping m-dimensional objects in one or more parallel m-dimensional flats in n-dimensional Euclidean space.
+* \mu_{ms} is the total measure (sum) of the set of m-dimensional objects.
+* p represents an m-dimensional projection of the original set onto an orthogonal coordinate subspace.
+* \mu_{mp_i} is the measure of the m-dimensional set projection onto m-dimensional coordinate subspace i.  Because object projections can overlap on a coordinate subspace, the measure of each object projection in the set must be calculated individually, then measures of all projections added together to provide the total measure for the set of projections on the given coordinate subspace.
+* x is the number of orthogonal, m-dimensional coordinate subspaces in n-dimensional space () onto which the m-dimensional objects are projected (m ≤ n): 
+:x = {n \choose m} = n!/m!(n-m)!
+:For example, for a set of one or more two-dimensional parallel objects in three-dimensional space, m = 2 and n = 3.  Therefore, the coordinate subspace calculation for this scenario is:  x = 3!/2!(3-2)! = 3*2*1/2*1*1 = 6/2 = 3
+:Thus, three coordinate planes (xy-plane, xz-plane, and yz-plane) are required to capture the necessary projections for calculating the area of the set.  If the set contained one-dimensional parallel line segments instead, three coordinate axes (x, y, and z), rather than planes, would be needed to capture the projections for calculating the length of the set.
+
+====Applied to Sets Containing a Single Object====
+
+This generalized formula can be applied in the simplest case to a single one-dimensional object, a line segment, in two-dimensional space.  The animation illustrates this case with a line segment shown in blue and its projections onto the x- and y- axes shown in green.  The lengths of the projections squared and added together are equal to the length of the original line segment squared.  This produces the familiar Pythagorean theorem formula:
+:a^2 + b^2 = c^2
+where c is the length of the original line segment, a is the length of the segment projected onto the x-axis, and b is the length of the segment projected onto the y-axis.  In the animation, a2 = 27, b2 = 9, and c2 = 36.  Bringing the line segment together with its coordinate projections forms the traditional right triangle.
+
+Similarly, for any two-dimensional object in three-dimensional space, the formula can be stated as:
+:A^2 + B^2 + C^2 = D^2
+where D is the area of a specified two-dimensional object, A is the area of the object’s projection onto the xy-coordinate plane, B is the area of the object’s projection onto the xz-coordinate plane, and C is the area of the object’s projection onto the yz-coordinate plane.
+
+The animation showing a blue three-by-three square object in three dimensions of space illustrates this application of the generalization to an object of more than one dimension.  As the orientation of the object changes, the proportions of the green coordinate plane projections adjust accordingly, so the squares of the areas of the projections always add up to the same value:  the square of the area of the original object.  In this case, the sum of the squares of the projection areas always add up to 81.
+
+====Applied to Sets Containing Multiple Objects====
+
+The generalization applies equally to sets of multiple objects, as long as they are in the same plane or parallel planes.  The measures of the objects in such a set can be added together and essentially treated as a single object.  The multiple line-segment animation illustrates the generalization applied to a set of three one-dimensional objects in three dimensions of space.  In this case, two sequential line segments exist in parallel to a third line segment.  Because lines are one-dimensional, the coordinate subspaces onto which they are projected must also be one-dimensional.  Thus, projections appear on the coordinate axes rather than on the coordinate planes.  The lengths of the projected line segments on a given axis are summed, then squared, then added to the total lengths squared on the other axes.  The result is the squared sum of the lengths of the original line segments.  For the sake of simplicity, when projections are single points of zero length, they are not shown, since they do not affect the calculations.
+
+The generalization applies to flat objects of any shape, regular or irregular.  The multi-object animation illustrates the use of the generalization on a set of several different objects in different planes – in this case, a triangle and a circle on one plane, and a flat cat on a parallel plane (shown in blue).  Projections of the set are shown in green on the coordinate plane subspaces.  Objects shown initially upright in the yz-plane are subsequently tilted in parallel.  Again, regardless of set orientation, the result remains the same.  On each coordinate plane subspace, the areas of object projections are calculated individually (to avoid miscalculations due to projection overlap), then added together to produce the total projection area of the set on that plane.  The projection set area is then squared for each coordinate plane.  The sum of all projection set areas squared is always equal to the original set area squared.
+
+====Applied in Any Number of Dimensions====
+
+This generalization holds regardless of the number of dimensions involved.  The volume squared for a three-dimensional object or set can be calculated by summing the squares of the volumes of the associated three-dimensional projections onto three-dimensional subspaces.  Any number of dimensions is valid for the set as long as one uses the same number of dimensions for the coordinate subspaces and projections.
+
+It is the built-in symmetry of the  Cartesian coordinate system where coordinates are orthogonal vectors of unit length in flat  Euclidean space that allows this generalization to apply so broadly.
+
 ===Non-Euclidean geometry===
 
 The Pythagorean theorem is derived from the axioms of Euclidean geometry, and in fact, the Pythagorean theorem given above does not hold in a non-Euclidean geometry. (The Pythagorean theorem has been shown, in fact, to be equivalent to Euclid's Parallel (Fifth) Postulate.)

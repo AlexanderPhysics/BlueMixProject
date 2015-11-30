@@ -105,7 +105,7 @@ While the length of the line segment makes no difference for the slope (the slop
 
 The six trigonometric functions can also be defined in terms of the unit circle, the circle of radius one centered at the origin. The unit circle relies on right triangles for most angles.
 
-The unit circle definition does, however, permit the definition of the trigonometric functions for all positive and negative arguments, not just for angles between 0 and π/2 radians.
+The unit circle definition does, however, permit the definition of the trigonometric functions for all positive and negative arguments, not just for angles between 0 and  radians.
 
 From the Pythagorean theorem the equation for the unit circle is
 
@@ -132,11 +132,11 @@ The algebraic expressions for 15°, 18°, 36°, 54°, 72°, and 75° are as foll
 
 From these, the algebraic expressions for all multiples of 3° can be computed.  For example:
 
-:\sin 3^\circ = \cos 87^\circ = \frac{2(1-\sqrt{3})\sqrt{5+\sqrt5}+(\sqrt{10}-\sqrt2)(\sqrt3+1)}{16}\,\!
+:\sin 3^\circ = \cos 87^\circ = \frac{(\sqrt6+\sqrt2)(\sqrt5-1)-2(\sqrt3-1)\sqrt{5+\sqrt5}}{16}\,\!
 :\sin 6^\circ = \cos 84^\circ = \frac{\sqrt{30-6\sqrt{5}}-\sqrt5-1}{8}\,\!
 :\sin 9^\circ = \cos 81^\circ = \frac{\sqrt{10}+\sqrt2-2\sqrt{5-\sqrt{5}}}{8}\,\!
 :\sin 84^\circ = \cos 6^\circ = \frac{\sqrt{10-2\sqrt{5}}+\sqrt3+\sqrt{15}}{8}
-:\sin 87^\circ = \cos 3^\circ = \frac{2(1+\sqrt{3})\sqrt{5+\sqrt5}+\sqrt{30}+\sqrt{10}-\sqrt6-\sqrt2}{16}\,\!
+:\sin 87^\circ = \cos 3^\circ = \frac{(\sqrt6-\sqrt2)(\sqrt5-1)+2(\sqrt3+1)\sqrt{5+\sqrt5}}{16}\,\!
 
 Though a complex task, the algebraic expression for sin 1° can be obtained by algebraically solving the cubic equation
 

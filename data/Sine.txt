@@ -204,11 +204,87 @@ where sin2x means (sin(x))2.
 
 == Properties relating to the quadrants ==
 Over the four quadrants of the sine function is as follows.
+{| class="wikitable"  style="text-align: center"
+|-
+!Quadrant
+!Degrees
+!Radians
+!Value
+!Sign
+!Monotony
+!Convexity
+|-
+|1st Quadrant
+|0^\circ
+|0
+|0
+|+
+|increasing
+|concave
+|-
+|2nd Quadrant
+|90^\circ
+|\frac{\pi}{2}
+|0
+|+
+|decreasing
+|concave
+|-
+|3rd Quadrant
+|180^\circ
+|\pi
+|-1
+|-
+|decreasing
+|convex
+|-
+|4th Quadrant
+|270^\circ
+|\frac{3\pi}{2}
+|-1
+|-
+|increasing
+|convex
+|}
 
 Points between the quadrants. k is an integer.
 
-For arguments outside those in the table, get the value using the fact the sine function has a period of 360° (or 2π rad): \sin(\alpha + 360^\circ) = \sin(\alpha), or use \sin(\alpha + 180^\circ) = -\sin(\alpha).
-Or use \cos(x)= \frac{e^{ix}+e^{-ix}}{2}   and  \sin(x)=\frac{e^{ix}-e^{-ix}}{2i}.
+{| class="wikitable" style="text-align: center"
+|-
+!Degrees
+!Radians
+0 \le x 
+!Radians
+!\sin(x)
+!Point type
+|-
+|0^\circ
+|0
+|2\pi k
+|0
+|align=left|Root, Inflection
+|-
+|90^\circ
+|\frac{\pi}{2}
+|2\pi k + \frac{\pi}{2}
+|1
+|align=left|Maxima
+|-
+|180^\circ
+|\pi
+|2\pi k - \pi
+|0
+|align=left|Root, Inflection
+|-
+|270^\circ
+|\frac{3\pi}{2}
+|2\pi k - \frac{\pi}{2}
+|-1
+|align=left|Minima
+|}
+
+For arguments outside those in the table, get the value using the fact the sine function has a period of 360° (or 2 rad): \sin(\alpha + 360^\circ) = \sin(\alpha), or use \sin(\alpha + 180^\circ) = -\sin(\alpha).
+Or use \cos(x)=\frac{e^{xi}+e^{-xi}}{2} and \sin(x)=\frac{e^{xi}-e^{-xi}}{2i}.
 For complement of sine, we have \sin(180^\circ-\alpha) = \sin(\alpha).
 
 == Series definition ==
