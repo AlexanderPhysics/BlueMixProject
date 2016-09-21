@@ -6,8 +6,8 @@ SmartCards started as a project during the HackingEDU hackathon. The original so
 This project attempts to extend and improve upon that original application by leveraging Bluemix Concept Insights. This work was done as part of a project our GalvanizeU Watson class.
 
 ### Contributors
-Kat Aquino
-Brandon Fetters
+Kat Aquino\\
+Brandon Fetters\\
 Alexander Barriga
 
 
